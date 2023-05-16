@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
     margin: 0;
 }
+
+h1, p {
+    font-family: 'Quicksand',  'Muli', sans-serif;
+}
 .header {
 
-  background-color: #1f2937;
+  background-color: #2b4364;
   padding: 25px;
   padding-bottom: 100px;
 }
@@ -11,8 +18,8 @@ body {
 .header-text {
     display: flex;    
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 250px;
+    margin-right: 250px;
     justify-content: space-between;
 }
 
@@ -67,8 +74,8 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;        
+    margin-left: 250px;
+    margin-right: 250px;        
 
 }
 
@@ -80,4 +87,31 @@ p {
 .header-image {
     display: flex;
     height: 250px;    
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.square {
+    display: flex;
+    justify-content: center;
+    gap: 50px;    
+
+}
+
+.square01, .square02, .square03, .square04 {
+    max-height: 240px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.image01, .image02, .image03, .image04 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
